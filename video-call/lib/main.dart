@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
     await [Permission.microphone, Permission.camera].request();
 
     //create the engine
-    _engine = await RtcEngine.create("eea35a29e63640c58179685ee868a8d5");
+    _engine = await RtcEngine.create("1826da8e6a2c45f78233981b2246434a");
     await _engine.enableVideo();
     _engine.setEventHandler(
       RtcEngineEventHandler(
